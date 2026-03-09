@@ -97,7 +97,7 @@ main,
 .site-header {
   max-width: var(--max);
   margin: 0 auto;
-  padding: 24px 24px 0;
+  padding: 36px 24px 10;
   display: flex;
   align-items: center;
   justify-content: space-between;
