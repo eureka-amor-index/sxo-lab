@@ -3,20 +3,237 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SXO Lab</title>
+
+  <title>SXO Lab | Search Experiments by Eureka Amor</title>
+  <meta
+    name="description"
+    content="SXO Lab is a living archive of search experiments, poetic interfaces, and digital identity prototypes by Eureka Amor."
+  />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="Eureka Amor" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="SXO Lab | Search Experiments by Eureka Amor" />
+  <meta
+    property="og:description"
+    content="A living archive of search experiments, poetic interfaces, and digital identity prototypes."
+  />
+  <meta property="og:url" content="https://eureka-amor-index.github.io/sxo-lab/" />
+  <meta property="og:image" content="https://eureka-amor-index.github.io/sxo-lab/assets/img/og-sxo-lab.jpg" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="SXO Lab | Search Experiments by Eureka Amor" />
+  <meta
+    name="twitter:description"
+    content="Search experiments, poetic systems, and digital identity interfaces."
+  />
+  <meta name="twitter:image" content="https://eureka-amor-index.github.io/sxo-lab/assets/img/og-sxo-lab.jpg" />
+
+  <link rel="canonical" href="https://eureka-amor-index.github.io/sxo-lab/" />
+  <link rel="icon" href="assets/img/favicon.png" />
   <link rel="stylesheet" href="assets/css/lab.css" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "SXO Lab",
+    "url": "https://eureka-amor-index.github.io/sxo-lab/",
+    "author": {
+      "@type": "Person",
+      "name": "Eureka Amor"
+    },
+    "description": "A living archive of search experiments, poetic interfaces, and digital identity prototypes.",
+    "genre": [
+      "Search Experience Optimization",
+      "Creative Technology",
+      "Digital Identity",
+      "Experimental Interfaces"
+    ]
+  }
+  </script>
 </head>
 <body>
-  <main>
-    <h1>SXO Lab</h1>
-    <p>Experiments in search, language, and digital identity.</p>
+  <div class="noise"></div>
+  <div class="orb orb-1"></div>
+  <div class="orb orb-2"></div>
+  <div class="grid-glow"></div>
 
-    <ul>
-      <li><a href="experiments/query-pulse-scout/">Query Pulse Scout</a></li>
-      <li><a href="experiments/cadaver-exquisito/">Cadáver Exquisito</a></li>
-      <li><a href="experiments/emotional-constellations/">Emotional Constellations</a></li>
-    </ul>
+  <header class="site-header">
+    <a class="brand" href="./">
+      <span class="brand-mark">✦</span>
+      <span class="brand-text">SXO Lab</span>
+    </a>
+
+    <nav class="nav">
+      <a href="#experiments">Experiments</a>
+      <a href="#manifesto">Manifesto</a>
+      <a href="#signal">Signal</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="eyebrow">living repository / search experience / digital identity</p>
+      <h1>
+        Experiments at the edge of
+        <span>search, language, and human signal.</span>
+      </h1>
+      <p class="hero-copy">
+        SXO Lab is a small constellation of interfaces, prototypes, and poetic systems
+        exploring how people and algorithms recognize each other.
+      </p>
+
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#experiments">Enter the Lab</a>
+        <a class="btn btn-ghost" href="https://github.com/eureka-amor-index/sxo-lab" target="_blank" rel="noopener noreferrer">
+          View Repository
+        </a>
+      </div>
+
+      <div class="status-row">
+        <div class="status-pill">
+          <span class="dot live"></span>
+          <span>repository online</span>
+        </div>
+        <div class="status-pill">
+          <span class="dot beta"></span>
+          <span>building in public</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="signal-panel" id="signal">
+      <div class="signal-card">
+        <p class="signal-label">current transmission</p>
+        <p class="signal-text" id="rotatingLine">
+          Mapping search intent into experimental interfaces.
+        </p>
+      </div>
+      <div class="signal-card">
+        <p class="signal-label">core frequency</p>
+        <p class="signal-text">
+          Search Experience Optimization × creative technology × digital presence
+        </p>
+      </div>
+    </section>
+
+    <section class="manifesto" id="manifesto">
+      <div class="section-heading">
+        <p class="section-kicker">manifesto</p>
+        <h2>This lab is not a portfolio. It is a living signal.</h2>
+      </div>
+
+      <div class="manifesto-grid">
+        <article class="manifesto-card">
+          <h3>Search as ritual</h3>
+          <p>
+            We study search not only as ranking and retrieval, but as a human act:
+            desire, language, memory, intent, and discovery.
+          </p>
+        </article>
+
+        <article class="manifesto-card">
+          <h3>Interfaces as poetry</h3>
+          <p>
+            Every experiment is allowed to be useful and strange at once. Systems can be
+            functional without losing mystery.
+          </p>
+        </article>
+
+        <article class="manifesto-card">
+          <h3>Identity as signal</h3>
+          <p>
+            This repository tracks how an entity becomes legible across platforms,
+            metadata, language, and machine interpretation.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="experiments" id="experiments">
+      <div class="section-heading">
+        <p class="section-kicker">experiments</p>
+        <h2>Current nodes inside the lab</h2>
+      </div>
+
+      <div class="cards">
+        <article class="exp-card">
+          <div class="exp-top">
+            <span class="badge badge-beta">beta</span>
+            <span class="lang">EN</span>
+          </div>
+          <h3>Query Pulse Scout</h3>
+          <p>
+            A search experiment for detecting optimization opportunities, semantic
+            patterns, and content momentum.
+          </p>
+          <div class="exp-meta">
+            <span>search systems</span>
+            <span>semantic pulse</span>
+          </div>
+          <a class="exp-link" href="experiments/query-pulse-scout/">Open experiment →</a>
+        </article>
+
+        <article class="exp-card">
+          <div class="exp-top">
+            <span class="badge badge-live">live</span>
+            <span class="lang">ES</span>
+          </div>
+          <h3>Cadáver Exquisito</h3>
+          <p>
+            Una consola poética donde una frase llama a la siguiente y el lenguaje se
+            convierte en juego, eco y mutación.
+          </p>
+          <div class="exp-meta">
+            <span>poetic interface</span>
+            <span>collective language</span>
+          </div>
+          <a class="exp-link" href="experiments/cadaver-exquisito/">Abrir experimento →</a>
+        </article>
+
+        <article class="exp-card">
+          <div class="exp-top">
+            <span class="badge badge-concept">concept</span>
+            <span class="lang">EN</span>
+          </div>
+          <h3>Emotional Constellations</h3>
+          <p>
+            A visual prototype mapping keywords through emotional gravity, semantic
+            relation, and intent clusters.
+          </p>
+          <div class="exp-meta">
+            <span>data visualization</span>
+            <span>keyword emotion</span>
+          </div>
+          <a class="exp-link" href="experiments/emotional-constellations/">Open concept →</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="closing">
+      <div class="closing-box">
+        <p class="section-kicker">closing transmission</p>
+        <h2>
+          Built by
+          <span>Eureka Amor</span>
+        </h2>
+        <p>
+          SXO strategist, creative technologist, and experimental systems builder exploring
+          how humans, platforms, and algorithms shape visibility.
+        </p>
+        <div class="closing-links">
+          <a href="https://github.com/eureka-amor-index" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="https://eurekaamor.com.ar" target="_blank" rel="noopener noreferrer">Website</a>
+        </div>
+      </div>
+    </section>
   </main>
+
+  <footer class="site-footer">
+    <p>© 2026 SXO Lab / Built in public by Eureka Amor</p>
+  </footer>
 
   <script src="assets/js/lab.js"></script>
 </body>
