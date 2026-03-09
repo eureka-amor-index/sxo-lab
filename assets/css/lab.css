@@ -103,9 +103,12 @@ main,
   justify-content: space-between;
 }
 .logo{
-  height:75px;
+  height:64px;
   width:auto;
   display:block;
+  filter: drop-shadow(0 0 12px rgba(126,240,210,0.35))
+          drop-shadow(0 0 28px rgba(142,168,255,0.25));
+  transition: transform .3s ease, filter .3s ease;
 }
 .brand {
   display: inline-flex;
