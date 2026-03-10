@@ -4,7 +4,7 @@
 
 Created by **Eureka Amor**, this lab documents small experiments at the intersection of:
 
-Path: https://eureka-amor-index.github.io/sxo-lab/
+Path: https://sxolab.com.ar/
 
 • Search Experience Optimization (SXO)  
 • Semantic systems  
