@@ -37,25 +37,64 @@
   <link rel="icon" href="assets/logo-sxo-lab.png" />
   <link rel="stylesheet" href="assets/css/lab.css" />
 
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "CreativeWork",
-    "name": "SXO Lab",
-    "url": "https://eureka-amor-index.github.io/sxo-lab/",
-    "author": {
-      "@type": "Person",
-      "name": "Eureka Amor"
+   <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://sxolab.com.ar/#organization",
+      "name": "SXO Lab",
+      "url": "https://sxolab.com.ar/",
+      "logo": "https://sxolab.com.ar/assets/logo-sxo-lab.png",
+      "description": "SXO Lab is an experimental laboratory on the internet where search, AI, digital identity, and human creativity meet.",
+      "founder": {
+        "@id": "https://eurekaamor.com/#person"
+      },
+      "sameAs": [
+        "https://www.instagram.com/sxolab/"
+      ]
     },
-    "description": "A living archive of search experiments, poetic interfaces, and digital identity prototypes.",
-    "genre": [
-      "Search Experience Optimization",
-      "Creative Technology",
-      "Digital Identity",
-      "Experimental Interfaces"
-    ]
-  }
-  </script>
+    {
+      "@type": "Person",
+      "@id": "https://eurekaamor.com/#person",
+      "name": "Eureka Amor",
+      "url": "https://eurekaamor.com/",
+      "jobTitle": "Search Experience Strategist",
+      "worksFor": {
+        "@id": "https://sxolab.com.ar/#organization"
+      },
+      "sameAs": [
+        "https://www.instagram.com/eureka_amor/"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://sxolab.com.ar/#website",
+      "url": "https://sxolab.com.ar/",
+      "name": "SXO Lab",
+      "publisher": {
+        "@id": "https://sxolab.com.ar/#organization"
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://sxolab.com.ar/#webpage",
+      "url": "https://sxolab.com.ar/",
+      "name": "SXO Lab",
+      "isPartOf": {
+        "@id": "https://sxolab.com.ar/#website"
+      },
+      "about": {
+        "@id": "https://sxolab.com.ar/#organization"
+      },
+      "description": "SXO Lab is a living archive of search experiments, algorithmic gardens, and digital identity prototypes by Eureka Amor.",
+      "inLanguage": "en"
+    }
+  ]
+}
+</script>
 </head>
 <body>
   <div class="noise"></div>
