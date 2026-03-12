@@ -1,4 +1,3 @@
-```
 # ==================================================
 #   SXO LAB — by EUREKA AMOR
 #   Search Experience Optimization Laboratory
@@ -19,4 +18,3 @@ User-agent: *
 Allow: /
 
 Sitemap: https://sxolab.com.ar/sitemap.xml
-```
